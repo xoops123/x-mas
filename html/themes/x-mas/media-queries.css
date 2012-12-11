@@ -1,0 +1,30 @@
+@media screen and (max-width: 478px) 	{
+	header h1 { font-size: 200%; padding: 1px; }
+	h2 { font-size: 13px; padding: 1px; }
+	h3 { font-size: 18px; }
+	body { font-size: 13px; }
+	#main-col { width: 100%; }
+	#sidebar { width: 100%; }
+	#menu_s a { display:inline-block;padding:10px; }
+
+	#CenterLColumn { float: left; width: 100%;}
+	#CenterRColumn { float: left; width: 100%;}
+	#headerSearch {display:none;}
+}
+
+@media screen and (max-width: 740px) 	{
+	#main-col { width: 100%; }
+	#sidebar { width: 100%; }
+	h3 { font-size: 18px; }
+	#headerSearch {display:none;}
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
