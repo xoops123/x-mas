@@ -31,25 +31,28 @@ table.d3f_outer tr.odd {
 		-moz-linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%);
 }
 
-#d3f_post_form_quick table.d3f_postform {
-	width:90%;
-	margin-left: 2em;
+#pageComments {
+	margin-left:-20px;
 }
-#d3f_post_form_quick table.d3f_postform td.head,
-#d3f_post_form_quick table.d3f_postform td.even  {
+
+table.d3f_postform {
+	width:90%;
+}
+table.d3f_postform td.head,
+table.d3f_postform td.even  {
 	background:transparent;
 }
 
-#d3f_post_form_quick table.d3f_postform td.head {
+table.d3f_postform td.head {
 	width:70px;
 }
-#d3f_post_form_quick table.d3f_postform td.even  {
+table.d3f_postform td.even  {
 }
-#d3f_post_form_quick table.d3f_postform textarea , table.d3f_form_table textarea , table.d3f_form_table ,
-#d3f_post_form_quick table.d3f_postform input , table.d3f_form_table input#subject {
+table.d3f_postform textarea , table.d3f_form_table textarea , table.d3f_form_table ,
+table.d3f_postform input , table.d3f_form_table input#subject {
 	width:100%;
 }
-#d3f_post_form_quick table.d3f_postform input.formButton {
+table.d3f_postform input.formButton {
 	width:100px;
 }
 
@@ -499,3 +502,7 @@ body.wordpress .large_thumbnail{
 
 
 /* End Wordpress (XpressME) */
+
+#Modulecontents table ,
+#Modulecontents .d3downloads_outer , 
+#Modulecontents .d3downloads_single_frame_description {background:transparent;}
