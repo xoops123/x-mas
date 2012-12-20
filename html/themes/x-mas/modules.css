@@ -503,6 +503,28 @@ body.wordpress .large_thumbnail{
 
 /* End Wordpress (XpressME) */
 
-#Modulecontents table ,
-#Modulecontents .d3downloads_outer , 
-#Modulecontents .d3downloads_single_frame_description {background:transparent;}
+/* ------------ d3downloads ------------ */
+
+.d3downloads_head,
+.d3downloads_even,
+.d3downloads_odd,
+tr.d3downloads_even,
+tr.d3downloads_odd,
+tr.d3downloads_odd:hover, tr.even:hover,
+td.d3downloads_submitlink,
+td.d3downloads_admin_link,
+td.d3downloads_single_frame_title,
+td.d3downloads_single_frame_gifimage,
+td.d3downloads_single_frame_version,
+div.d3downloads_md5_line,
+hr.d3downloads_extra_infomation,
+.d3downloads_imgurl_frame,
+div.d3downloads_submit_help,
+.d3downloads_pagenav li,
+.d3downloads_pagenav li.currentpage,
+.d3downloads_pagenav li.pageskip,
+div.d3downloads_canread_info,
+.d3downloads_submit,
+.d3downloads_editor_selector {
+	background: transparent;
+}
