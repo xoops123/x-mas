@@ -15,7 +15,7 @@ ScreenShot="screenshot.png"
 Description="Responsive Web Design & Grid Design"
 W3C=YES
 
-Licence="creative commons"
+Licence="MIT"
 
 */
 ?>
